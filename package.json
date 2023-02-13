@@ -1,57 +1,45 @@
 {
-  "name": "poornima",
-  "homepage": "https://poorninaik.github.io",
+  "name": "poorninaik.github.io",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/material": "^5.10.9",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^4.0.0",
-    "prettier-package-json": "^2.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-pdf": "^5.7.2",
-    "react-router-dom": "^6.4.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@apollo/client": "^3.7.7",
+    "@google-analytics/data": "^3.2.0",
+    "@next/font": "13.1.6",
+    "axios": "^1.3.2",
+    "daisyui": "^2.50.0",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "framer-motion": "^9.0.2",
+    "gh-pages": "^5.0.0",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.1",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loading": "^2.0.3",
+    "react-markdown": "^8.0.5",
+    "react-tsparticles": "^2.9.3",
+    "remark-gfm": "^3.0.1",
+    "skeleton": "^0.1.2",
+    "swiper": "^9.0.4",
+    "tsparticles": "^2.9.3",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
-    "husky": "^7.0.4",
-    "lint-staged": "^11.2.6",
-    "prettier": "2.4.1"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
   }
 }
