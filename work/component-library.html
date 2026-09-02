@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internal Component Library & Hooks Architecture — Poornima Naik</title>
+<meta name="description" content="Case study: rebuilding an internal React platform with a reusable component library and hooks architecture, cutting development time by 60%.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Poornima Naik</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="detail-hero" style="border-top:none;">
+    <a class="back-link" href="../index.html#work">← Back to portfolio</a>
+    <p class="eyebrow">Case Study</p>
+    <h1>Internal Component Library &amp; Hooks Architecture</h1>
+    <div class="meta-row">
+      <span><strong>Company —</strong> Audible Magic Corporation · Los Gatos, CA</span>
+      <span><strong>Role —</strong> Full-Stack Engineer</span>
+      <span><strong>Dates —</strong> Jan 2019 – Mar 2023</span>
+    </div>
+    <div class="detail-tags">
+      <span class="tag">React</span>
+      <span class="tag">Hooks</span>
+      <span class="tag">Design System</span>
+      <span class="tag">JavaScript</span>
+    </div>
+
+    <div class="prose">
+      <h3>The problem</h3>
+      <p>The internal ReactJS platform had accumulated years of technical debt. Every team was solving the same UI problems from scratch — no shared components, no shared patterns — which slowed every new feature down.</p>
+      <h3>What I did</h3>
+      <ul>
+        <li>Rebuilt the internal ReactJS platform from scratch rather than patching around the existing debt.</li>
+        <li>Introduced a reusable component library and a hooks-based architecture in place of the older class-based patterns.</li>
+        <li>Worked with teams across the org to migrate onto the new platform and adopt the shared components.</li>
+      </ul>
+      <h3>Outcome</h3>
+      <p>The component library and hooks architecture were adopted across teams, cutting development time by 60% on new feature work.</p>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap foot-row">
+    <span>© <span id="year"></span> Poornima Naik</span>
+    <span>
+      <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/poorninaik" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

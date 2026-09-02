@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Self-Serve Reporting Platform — Poornima Naik</title>
+<meta name="description" content="Case study: turning repetitive client report requests into a self-serve reporting platform on AWS Lambda, S3, and Elastic Beanstalk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Poornima Naik</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="detail-hero" style="border-top:none;">
+    <a class="back-link" href="../index.html#work">← Back to portfolio</a>
+    <p class="eyebrow">Case Study</p>
+    <h1>Self-Serve Reporting Platform</h1>
+    <div class="meta-row">
+      <span><strong>Company —</strong> Audible Magic Corporation · Los Gatos, CA</span>
+      <span><strong>Role —</strong> Full-Stack Engineer</span>
+      <span><strong>Dates —</strong> Jan 2019 – Mar 2023</span>
+    </div>
+    <div class="detail-tags">
+      <span class="tag">Python</span>
+      <span class="tag">AWS Lambda</span>
+      <span class="tag">S3</span>
+      <span class="tag">Elastic Beanstalk</span>
+      <span class="tag">CloudFormation</span>
+    </div>
+
+    <div class="prose">
+      <h3>The problem</h3>
+      <p>Clients kept coming back with one-off report requests. Each one ate engineering time, and none of it was reusable — a manual pattern standing in for a real solution.</p>
+      <h3>What I did</h3>
+      <ul>
+        <li>Recognized the repeated requests as a solvable platform problem, not a series of one-offs.</li>
+        <li>Designed and shipped a self-serve reporting platform (Lambda + S3 + Elastic Beanstalk) that let clients generate their own reports on demand.</li>
+        <li>As part of the same architectural mandate, set the direction for migrating fragmented legacy services into a cohesive microservices platform on AWS.</li>
+        <li>Authored CloudFormation-based CI/CD automation and a shared C# middleware library that became org-wide defaults, reducing new-service setup time.</li>
+        <li>Designed a reusable scheduler service (Quartz.NET) and Redis caching layer that multiple teams adopted for their own pipeline needs.</li>
+      </ul>
+      <h3>Outcome</h3>
+      <p>The manual request pattern was eliminated entirely, freeing up engineering time that had been going to one-off client reports.</p>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap foot-row">
+    <span>© <span id="year"></span> Poornima Naik</span>
+    <span>
+      <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/poorninaik" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

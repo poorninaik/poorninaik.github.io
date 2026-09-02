@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geospatial Ordering Microservice — Poornima Naik</title>
+<meta name="description" content="Case study: migrating a mobile commerce platform to AWS and building a MongoDB geospatial microservice for location-aware ordering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Poornima Naik</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="detail-hero" style="border-top:none;">
+    <a class="back-link" href="../index.html#work">← Back to portfolio</a>
+    <p class="eyebrow">Case Study</p>
+    <h1>Geospatial Ordering Microservice</h1>
+    <div class="meta-row">
+      <span><strong>Company —</strong> CardFree · San Francisco, CA</span>
+      <span><strong>Role —</strong> Software Engineer</span>
+      <span><strong>Dates —</strong> Sep 2015 – Jun 2017</span>
+    </div>
+    <div class="detail-tags">
+      <span class="tag">MongoDB</span>
+      <span class="tag">Geospatial</span>
+      <span class="tag">AWS</span>
+      <span class="tag">.NET</span>
+      <span class="tag">C#</span>
+    </div>
+
+    <div class="prose">
+      <h3>The problem</h3>
+      <p>CardFree's mobile commerce platform ran on on-prem infrastructure with a scalability ceiling, and the product needed location-aware ordering — knowing which store a customer was near, reliably enough to route their order correctly.</p>
+      <h3>What I did</h3>
+      <ul>
+        <li>Identified the scalability ceiling in the on-prem setup and made the technical case for migrating to AWS (EC2, S3, CloudFront, ElastiCache).</li>
+        <li>Designed a proximity microservice using MongoDB's geospatial features to power location-aware ordering.</li>
+        <li>Owned the integration architecture for third-party services — Google Pay, OAuth, MapQuest, and Omniware — working directly with product to shape requirements rather than waiting for a spec.</li>
+      </ul>
+      <h3>Outcome</h3>
+      <p>The AWS migration improved reliability and cut image load times. The proximity microservice became the foundation for the location features that followed it.</p>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap foot-row">
+    <span>© <span id="year"></span> Poornima Naik</span>
+    <span>
+      <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/poorninaik" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

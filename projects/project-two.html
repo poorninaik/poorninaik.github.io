@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TipCalc — iOS Tip Calculator — Poornima Naik</title>
+<meta name="description" content="A native iOS tip calculator built in Swift and Xcode, with unit and UI tests, as a hands-on introduction to iOS development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Poornima Naik</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="detail-hero" style="border-top:none;">
+    <a class="back-link" href="../index.html#projects">← Back to portfolio</a>
+    <p class="eyebrow">Side Project</p>
+    <h1>TipCalc — iOS Tip Calculator</h1>
+    <div class="meta-row">
+      <span><strong>Type —</strong> Personal project</span>
+      <span><strong>Platform —</strong> iOS / Xcode</span>
+      <span><strong>Language —</strong> Swift</span>
+    </div>
+    <div class="detail-tags">
+      <span class="tag">Swift</span>
+      <span class="tag">iOS</span>
+      <span class="tag">Xcode</span>
+      <span class="tag">Unit Testing</span>
+      <span class="tag">UI Testing</span>
+    </div>
+    <div class="cta-row" style="margin-bottom:8px;"><a class="btn btn-primary" href="https://github.com/poorninaik/TipCalc" target="_blank" rel="noopener">View on GitHub →</a></div>
+    <div class="prose">
+      <h3>What it is</h3>
+      <p>A small native iOS app: enter a bill amount, choose from a few preset tip percentages, and see the calculated tip and total update instantly. Nothing complicated by design — it's a focused, well-tested app rather than a sprawling one.</p>
+      <h3>Why I built it</h3>
+      <p>My day-to-day work is backend- and web-heavy. TipCalc was a hands-on introduction to iOS development in Swift and Xcode outside that comfort zone — a way to actually write and ship native mobile code rather than just read about it.</p>
+      <h3>Details</h3>
+      <ul>
+        <li>Built in Swift using Xcode, with a standard iOS project structure.</li>
+        <li>Includes both unit tests and UI tests alongside the app code.</li>
+        <li>Simple, deliberately scoped: bill entry, tip-percentage selection, live calculated total.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap foot-row">
+    <span>© <span id="year"></span> Poornima Naik</span>
+    <span>
+      <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/poorninaik" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

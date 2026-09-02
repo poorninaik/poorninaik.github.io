@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airline Payments & Booking — Poornima Naik</title>
+<meta name="description" content="Case study: leading Apple Pay and Sabre payment-gateway integration for Alaska Airlines' Same-Day Change and Ancillary Payments experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="../index.html">Poornima Naik</a>
+    <ul class="nav-links">
+      <li><a href="../index.html#work">Work</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="detail-hero" style="border-top:none;">
+    <a class="back-link" href="../index.html#work">← Back to portfolio</a>
+    <p class="eyebrow">Case Study</p>
+    <h1>Airline Payments &amp; Booking</h1>
+    <div class="meta-row">
+      <span><strong>Company —</strong> Alaska Airlines (via Fuel Talent, remote)</span>
+      <span><strong>Role —</strong> Senior Software Engineer</span>
+      <span><strong>Dates —</strong> May 2023 – Dec 2025</span>
+    </div>
+    <div class="detail-tags">
+      <span class="tag">C#</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">Svelte</span>
+      <span class="tag">React</span>
+      <span class="tag">Azure</span>
+      <span class="tag">Sabre</span>
+    </div>
+
+    <div class="prose">
+      <h3>The problem</h3>
+      <p>Same-Day Change and Ancillary Payments is a high-traffic e-commerce feature on Alaska Airlines' mobile app. It needed to support more payment methods reliably, and no one had yet made the case — or built the plan — for adding modern options like Apple Pay on top of the existing Sabre-based payment infrastructure.</p>
+      <h3>What I did</h3>
+      <ul>
+        <li>Identified the need for Apple Pay as a first-class payment method, built the technical case, and aligned stakeholders across mobile, backend, and payments engineering.</li>
+        <li>Led end-to-end implementation integrating with Sabre's payment gateway — one of the core systems airline booking infrastructure runs on.</li>
+        <li>Independently scoped, designed, and shipped a multi-payment-option system spanning backend services and frontend booking flows, owning the product decision rather than just the implementation.</li>
+        <li>Drove cross-team alignment on shared integration standards and observability practices for new payment systems, establishing common ground before complexity compounded.</li>
+        <li>Designed and owned monitoring dashboards giving non-engineering stakeholders self-serve visibility into system health, performance, and user interaction metrics.</li>
+        <li>Established coding standards and mentored junior engineers through code review and architectural guidance.</li>
+      </ul>
+      <h3>Outcome</h3>
+      <p>The multi-payment-option system is now used across booking flows, and the monitoring dashboards let stakeholders self-serve operational insight without pulling in engineering time for every question.</p>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap foot-row">
+    <span>© <span id="year"></span> Poornima Naik</span>
+    <span>
+      <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
+      <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://github.com/poorninaik" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
