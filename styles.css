@@ -278,6 +278,9 @@ footer .foot-row {
   flex-wrap: wrap;
   gap: 12px;
 }
+.site-stats { display: flex; gap: 16px; color: var(--text-faint); }
+.site-stat { display: inline-flex; gap: 5px; }
+.site-stat strong { color: var(--text-dim); font-weight: 600; }
 footer a { text-decoration: none; color: var(--text-dim); }
 footer a:hover { color: var(--accent); }
 

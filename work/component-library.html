@@ -9,6 +9,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBD6GFKKG1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MBD6GFKKG1');
+</script>
 </head>
 <body>
 
@@ -58,6 +66,10 @@
 <footer id="contact">
   <div class="wrap foot-row">
     <span>© <span id="year"></span> Poornima Naik</span>
+    <span class="site-stats" aria-label="Site statistics">
+      <span class="site-stat"><strong data-counter="visitors">--</strong> visitors</span>
+      <span class="site-stat"><strong data-counter="pageviews">--</strong> pageviews</span>
+    </span>
     <span>
       <a href="mailto:poorninaik@yahoo.co.in">poorninaik@yahoo.co.in</a> &nbsp;·&nbsp;
       <a href="https://linkedin.com/in/poornimanaik" target="_blank" rel="noopener">LinkedIn</a> &nbsp;·&nbsp;
@@ -69,6 +81,7 @@
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+<script src="../analytics.js"></script>
 
 </body>
 </html>
